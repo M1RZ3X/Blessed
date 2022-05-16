@@ -1,0 +1,595 @@
+/* Fonts */
+
+@font-face {
+	font-family: 'dancing';
+	src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: 'poppins';
+	src: url(../fonts/Poppins-Regular.ttf);
+}
+
+.jumbotron {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+
+/* END Fonts */
+
+
+/* Header */
+
+header.jumbotron {
+	background: url(../images/banner.jpg);
+	border-bottom-left-radius: 170px;
+	border-bottom-right-radius: 170px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/* Navigation */
+
+header.jumbotron #navbox {
+	background-color: #ffffff;
+	border-radius: 50px;
+	margin-top: 60px;
+}
+
+.navbar-default {
+	background: none !important;
+	border: none !important;
+}
+
+
+/* Navigation Logo */
+
+header.jumbotron #navbox #logo img {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+
+/* END Navigation Logo */
+
+
+/* Navigation Tools */
+
+header.jumbotron #navbox ul li.active a {
+	color: #000000;
+}
+
+header.jumbotron #navbox ul li a {
+	text-decoration: none;
+	color: #d8516e;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-family: 'poppins';
+	padding-left: 25px;
+	padding-right: 25px;
+	top: 7px;
+	letter-spacing: 0.6pt;
+	transition: 0.3s;
+}
+
+header.jumbotron #navbox ul li a:hover {
+	color: #000000;
+	transition: 0.3s;
+}
+
+
+/* END Navigation Tools */
+
+
+/* END Navigation */
+
+
+/*---Header Text---*/
+
+#headertxtbox #headertxt h2 {
+	font-size: 55px;
+	font-family: 'dancing';
+	color: #ffffff;
+	margin-top: 90px;
+}
+
+#headertxtbox #headertxt h3 {
+	font-size: 60px;
+	font-family: 'dancing';
+	color: #ffffff;
+	margin-top: 0px;
+}
+
+
+/*---END Header Text---*/
+
+
+/*---Header Read More---*/
+
+#headertxtbox #headerreadmore p a {
+	font-size: 17px;
+	color: #dc5373;
+	text-decoration: none;
+	background-color: #ffffff;
+	text-transform: capitalize;
+	font-family: 'poppins';
+	width: 100px;
+	padding: 19px 53px;
+	transition: 1s;
+}
+
+#headertxtbox #headerreadmore p {
+	margin-top: 100px;
+	padding-bottom: 48px;
+}
+
+#headertxtbox #headerreadmore p a:hover {
+	border-radius: 40px;
+	background-color: #000000;
+	transition: 1s;
+	color: #ffffff;
+}
+
+
+/*---END Header Read More---*/
+
+
+/*---ENDHeader Container---*/
+
+
+/* END Header */
+
+
+/* Section */
+
+
+/* Content 1 */
+
+#content1 #c1title h2 {
+	font-size: 60px;
+	font-family: 'dancing';
+	color: #3e3e3e;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+#content1 #c1title hr {
+	border: none;
+	height: 1px;
+	background-color: #f55171;
+	width: 25%;
+}
+
+#content1 #c1txt1 p {
+	font-size: 16px;
+	color: #666;
+	font-family: 'poppins';
+	text-align: center;
+}
+
+
+/* END Content 1 */
+
+
+/* Content 2 */
+
+#content2 img {
+	border: 15px solid #f55171;
+	border-radius: 100%;
+	width: 317px;
+}
+
+
+/* END Content 2 */
+
+
+/* Content 3 */
+
+#content3 p {
+	color: #000000;
+	font-family: 'poppins';
+	font-size: 17px;
+	line-height: 28px;
+	margin-top: 40px;
+}
+
+
+/* END Content 3 */
+
+
+/* Content 4 */
+
+#content4 {
+	padding-bottom: 75px;
+}
+
+#content4 p {
+	margin-top: 30px;
+}
+
+#content4 p a {
+	font-size: 17px;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #000000;
+	text-transform: capitalize;
+	font-family: 'poppins';
+	width: 100px;
+	padding: 19px 53px;
+	transition: 1s;
+}
+
+#content4 p a:hover {
+	border-radius: 40px;
+	background-color: #dc5373;
+	transition: 1s;
+	color: #ffffff;
+}
+
+
+/* END Content 4 */
+
+
+/* Content 5 */
+
+#content5 h2 {
+	font-size: 60px;
+	font-family: 'dancing';
+	color: #ffffff;
+}
+
+#content5 hr {
+	border: none;
+	height: 1px;
+	background-color: #ffffff;
+	width: 45%;
+}
+
+#content5 p {
+	font-size: 16px;
+	font-family: 'poppins';
+	color: #ffffff;
+	margin-top: 20px;
+}
+
+
+/* END Content 5 */
+
+
+/* Content 6 */
+
+#content6 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#content6 #circle1 {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+	border-radius: 100%;
+	border: 4px solid #ffffff;
+	transition: 0.3s;
+	background: url(../images/plan1.png)no-repeat;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+#content6 #circle1:hover {
+	width: 140px;
+	height: 140px;
+	transition: 0.3s;
+}
+
+#content6 #circle2 {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+	border-radius: 100%;
+	border: 4px solid #ffffff;
+	transition: 0.3s;
+	background: url(../images/plan2.png)no-repeat;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+#content6 #circle2:hover {
+	width: 140px;
+	height: 140px;
+	transition: 0.3s;
+}
+
+#content6 #circle3 {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+	border-radius: 100%;
+	border: 4px solid #ffffff;
+	transition: 0.3s;
+	background: url(../images/plan3.png)no-repeat;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+#content6 #circle3:hover {
+	width: 140px;
+	height: 140px;
+	transition: 0.3s;
+}
+
+#content6 h2 {
+	font-size: 30px;
+	font-family: 'poppins';
+	color: #ffffff;
+	margin-top: 25px;
+	font-weight: normal;
+}
+
+#content6 p {
+	font-size: 17px;
+	font-family: 'poppins';
+	color: #ffffff;
+	margin-top: 15px;
+}
+
+
+/* END Content 6 */
+
+
+/* Content 7 */
+
+#content7 {
+	padding-bottom: 48px;
+}
+
+#content7 p a {
+	font-size: 17px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #ffffff;
+	text-transform: capitalize;
+	font-family: 'poppins';
+	width: 100px;
+	padding: 19px 53px;
+	transition: 1s;
+}
+
+#content7 p a:hover {
+	border-radius: 40px;
+	background-color: #000000;
+	transition: 1s;
+	color: #ffffff;
+}
+
+
+/* END Content 7 */
+
+
+/* Content 8 */
+
+#content8 h2 {
+	font-size: 60px;
+	font-family: 'dancing';
+	color: #3e3e3e;
+	text-transform: capitalize;
+}
+
+#content8 hr {
+	border: none;
+	height: 1px;
+	background-color: #f55171;
+	width: 30%;
+	margin-top: 20px;
+}
+
+#content8 p {
+	font-size: 16px;
+	color: #666;
+	font-family: 'poppins';
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+
+/* END Content 8 */
+
+
+/* Content Form */
+
+#form input {
+	width: 80%;
+	height: 60px;
+	border: 2px solid #555555;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	font-size: 17px;
+}
+
+form #submit input {
+	width: 210px;
+	height: 60px;
+	border: none;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'poppins';
+	transition: 1s;
+	cursor: pointer;
+	margin-top: 50px;
+}
+
+form #submit input:hover {
+	background-color: #dc5373;
+	border-radius: 40px;
+	transition: 1s;
+}
+
+::placeholder {
+	padding-left: 20px;
+}
+
+form {
+	padding-bottom: 48px;
+}
+
+
+/* END Content Form */
+
+
+/* Content 9 */
+
+#content9 h2 {
+	font-size: 60px;
+	font-family: 'dancing';
+	color: #ffffff;
+	text-transform: capitalize;
+}
+
+#content9 hr {
+	border: none;
+	height: 1px;
+	background-color: #ffffff;
+	width: 22%;
+}
+
+#content9 p {
+	font-size: 16px;
+	color: #ffffff;
+	font-family: 'poppins';
+	text-align: center;
+}
+
+
+/* END Content 9 */
+
+
+/* Content 10 */
+
+#content10 {
+	padding-top: 100px;
+}
+
+#content10 .c10box {
+	height: 164px;
+	width: 48%;
+	background-color: #ffffff;
+	border-radius: 90px;
+	margin-left: 15px;
+	margin-top: 90px;
+}
+
+#content10 p {
+	font-size: 14px;
+	color: #090808;
+	font-family: 'poppins';
+	max-height: max-content;
+}
+
+.imgtxt {
+	margin-top: -75px;
+}
+
+.imgtxt img {
+	border: 9px solid #ffffff;
+	border-radius: 100%;
+	margin-left: -140px;
+}
+
+.imgtxt span {
+	font-size: 24px;
+	font-family: 'poppins';
+	color: #ffffff;
+	font-weight: normal;
+	inline-size: 171px;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+
+/* END Content 10 */
+
+
+/* Content 11 */
+
+#content11 #c4pagetool {
+	width: 156px;
+	height: 15px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-top: 37px;
+}
+
+#content11 #c11page1 {
+	width: 52px;
+	height: 15px;
+	border-radius: 10px;
+	float: left;
+}
+
+#content11 #c11page2 {
+	width: 52px;
+	height: 15px;
+	border-radius: 10px;
+	float: left;
+}
+
+#content11 #c11page3 {
+	width: 52px;
+	height: 15px;
+	border-radius: 10px;
+	float: left;
+}
+
+.c11selected {
+	background-color: #000000;
+}
+
+#content11 {
+	padding-bottom: 48px;
+}
+
+
+/* END Content 11 */
+
+
+/* END Section */
+
+
+/* Footer */
+
+footer {
+	margin: 0px;
+}
+
+footer #footertxt h3 {
+	color: #f55171;
+	font-weight: bold;
+	font-size: 60px;
+	font-family: 'dancing';
+	padding-top: 68px;
+}
+
+footer #footertxt h2 {
+	color: #ffffff;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: 'dancing';
+	margin-top: 10px;
+}
+
+footer #footertxt p {
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'poppins';
+	margin-top: 90px;
+}
+
+
+/* END Footer */
